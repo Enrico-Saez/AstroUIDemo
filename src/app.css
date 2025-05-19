@@ -1,0 +1,10 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+@layer base {
+    body {
+        @apply bg-gray-950 text-slate-50;
+        font-family: "Chakra Petch", sans-serif;
+    }
+}
